@@ -17,6 +17,7 @@ button {
     padding: 0;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 ul {
@@ -24,7 +25,7 @@ ul {
 }
 
 body {
-    font-family: ;
+    font-family: "Inter", sans-serif;
     color: #000;
     font-size: 16px;
     font-weight: 500;
@@ -32,5 +33,71 @@ body {
 
 }
 
-.container {}
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
 
+.header{
+
+    min-height: 100vh;
+    position: relative;
+}
+
+
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.menu__list{
+    display: flex;
+    align-items: center;
+    gap:  0 40px;
+    font-weight: 700;
+}
+
+.menu__btn{
+    padding: 15px 58px;
+    border-radius: 30px;
+    background-color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.header__content-images{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.header__content-images::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
+    z-index: -2;
+}
+
+.title{
+    font-size: 210px;
+    font-weight: 700;
+    position: absolute;
+    padding-top: 130px;
+}
+
+.title--pod{
+    position: relative;
+    z-index: -1;
+    margin-left: -40px;
+   
+}
