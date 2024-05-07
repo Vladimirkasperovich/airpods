@@ -272,4 +272,22 @@ body {
   z-index: -2;
   padding: 250px 0 40px;
   background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+.footer__link {
+  margin-top: 50px;
+  display: inline-block;
+}
+.footer__text {
+  padding: 20px 0;
+}
+
+.footer__list {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 40px;
 }
